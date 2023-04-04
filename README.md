@@ -5,10 +5,12 @@ Based on: https://blog.nrwl.io/building-angular-and-react-applications-together-
   (v15.9.1 workspace)
 
 > yarn add -D @nrwl/angular
+
 > yarn nx g @nrwl/angular:application angularapp
 
 
 > yarn add -D @nrwl/react
+
 > yarn nx generate @nrwl/react:app reactapp 
 
 > yarn add -D @nrwl/web
