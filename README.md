@@ -22,13 +22,17 @@ node 16.16.0
 https://nx.dev/packages/nx/documents/generate
 
 > yarn nx generate @nrwl/angular:library myangularlibrary
+
 > yarn nx generate @nrwl/react:library myreactlibrary
 
 > yarn nx lib ui --framework=none
 
 > nx serve reactapp       serves the React app
+
 > nx build reactapp       builds the React app
+
 > nx test reactapp        tests the React app using Jest
+
 > nx e2e reactapp-e2e     tests the React app using Cypres
 
 > yarn nx dep-graph
